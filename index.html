@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- start header -->
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-white aroud fixed-top bg-light">
+        <div class="container">
+          <a class="navbar-brand fs-2 fw-bold" href="#">Yummy<span class="text-danger fs-3">.</span></a>
+          <div class="collapse navbar-collapse aroud fw-bold coll" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#chefs">Chefs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex">
+            <a href="#book-a-table" class="btn btn-outline-danger btn-danger text-light rounded-5 hero-btn">Book a table</a>
+            </form>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+<!-- end header -->
+
+<!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center section-bg ">
+    <div class="container">
+      <div class="row justify-content-between gy-5 mt-3 mb-5">
+        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+          <h2 class="main-title fs-1 fw-bold">Enjoy Your Healthy<br>Delicious Food</h2>
+          <p class="paragraph">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+          <div class="d-flex">
+            <a href="#book-a-table" class="btn btn-outline-danger btn-danger text-light rounded-5 hero-btn">Book a table</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" target="_blank" class="glightbox btn-watch-video d-flex align-items-center ms-4 .btn text-dark fw-bold .text-danger"><i class="bi bi-play-circle me-2 text-danger fs-3 ico"></i><span>Watch Video</span></a>
+          </div>
+        </div>
+        <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+          <img src="images/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about mt-5 mb-5">
+    <div class="container">
+
+      <div class="section-header d-flex flex-column align-items-center">
+        <h2 class="text-uppercase abouth2">About Us</h2>
+        <p class="fs-1 aboutp">Learn More <span class="text-danger">About Us</span></p>
+      </div>
+
+      <div class="row gy-4">
+        <div class="col-lg-7 position-relative about-img aos-init aos-animate">
+          <img src="images/about.jpg" alt="" class="col-12 img-fluid" style="height: 100%;">
+          <div class="call-us position-absolute fw-bolder fs-3">
+            <h4 class="text-dark">Book a Table</h4>
+            <p class="text-danger">+1 5589 55488 55</p>
+          </div>
+        </div>
+        <div class="col-lg-5 d-flex align-items-end">
+          <div class="content ps-0 ps-lg-5">
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all text-danger"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="bi bi-check2-all text-danger"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="bi bi-check2-all text-danger"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            </ul>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+            </p>
+            <div class="position-relative mt-4">
+              <img src="images/about-2.jpg" class="img-fluid" alt="">
+              <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" target="_blank" class="glightbox play-btn position-absolute text-light" style="width: 100px;"><i class="bi-play-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+
+  
+   <!-- ======= Events Section ======= -->
+   <section id="events" class="events mt-5 mb-5">
+    <div class="container-fluid p-0">
+
+      <div class="section-header d-flex flex-column align-items-center">
+        <h2 class="abouth2 text-uppercase">Events</h2>
+        <p class="aboutp fs-1">Share <span class="text-danger">Your Moments</span> In Our Restaurant</p>
+      </div>
+
+   <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active slide-cir" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" class="slide-cir" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" class="slide-cir" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active event-item" data-bs-interval="10000">
+        <img src="images/events-1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light d-flex flex-column justify-content-end">
+          <h3 class="text-start fs-3">Custom Parties</h3>
+          <div class="text-start fs-3 fw-bold">$99</div>
+          <p class="text-start">
+            Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item event-item" data-bs-interval="2000">
+        <img src="images/events-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light d-flex flex-column justify-content-start align-items-start">
+          <h3 class="text-start fs-3">Private Parties</h3>
+              <div class="text-start fs-3 fw-bold">$289</div>
+              <p class="text-start">
+                In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+              </p>
+        </div>
+      </div>
+      <div class="carousel-item event-item">
+        <img src="images/events-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light d-flex flex-column justify-content-end">
+          <h3 class="text-start fs-3">Birthday Parties</h3>
+          <div class="text-start fs-3 fw-bold">$499</div>
+          <p class="text-start">
+            Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button> -->
+  </div>
+    </div>
+   </section>
+  <!-- End Events Section -->
+
+   <!-- ======= Menu Section ======= -->
+   <section id="menu" class="menu mt-5 mb-5">
+    <div class="container">
+
+      <div class="section-header d-flex flex-column align-items-center">
+        <h2 class="abouth2 text-uppercase">Our Menu</h2>
+        <p class="aboutp fs-1">Check Our <span class="text-danger">Yummy Menu</span></p>
+      </div>
+
+      <ul class="nav nav-tabs d-flex justify-content-center">
+
+        <li class="nav-item">
+          <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+            <h4>Starters</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
+            <h4>Breakfast</h4>
+          </a><!-- End tab nav item -->
+
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
+            <h4>Lunch</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
+            <h4>Dinner</h4>
+          </a>
+        </li><!-- End tab nav item -->
+
+      </ul>
+
+      <div class="tab-content">
+
+        <div class="tab-pane fade active show" id="menu-starters">
+
+          <div class="tab-header text-center">
+            <p class="mt-5 text-uppercase">Menu</p>
+            <h3 class="text-danger fw-bold fs-1">Starters</h3>
+          </div>
+
+          <div class="row gy-5">
+
+            <div class="col-lg-4 menu-item text-center">
+              <a href="images/menu/menu-item-1.png" class="glightbox"><img src="images/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Magnam Tiste</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $5.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-2.png" class="glightbox"><img src="images/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Aut Luia</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $14.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-3.png" class="glightbox"><img src="images/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Est Eligendi</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $8.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-4.png" class="glightbox"><img src="images/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Eos Luibusdam</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $12.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-5.png" class="glightbox"><img src="images/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Eos Luibusdam</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $12.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-6.png" class="glightbox"><img src="images/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Laboriosam Direva</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $9.95
+              </p>
+            </div><!-- Menu Item -->
+
+          </div>
+        </div><!-- End Starter Menu Content -->
+
+        <div class="tab-pane fade" id="menu-breakfast">
+
+          <div class="tab-header text-center">
+            <p class="mt-5 text-uppercase">Menu</p>
+            <h3 class="text-danger fw-bold fs-1">Breakfast</h3>
+          </div>
+
+          <div class="row gy-5">
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-1.png" class="glightbox"><img src="images/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Magnam Tiste</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $5.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-2.png" class="glightbox"><img src="images/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Aut Luia</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $14.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-3.png" class="glightbox"><img src="images/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Est Eligendi</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $8.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-4.png" class="glightbox"><img src="images/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Eos Luibusdam</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $12.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-5.png" class="glightbox"><img src="images/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Eos Luibusdam</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $12.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-6.png" class="glightbox"><img src="images/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Laboriosam Direva</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $9.95
+              </p>
+            </div><!-- Menu Item -->
+
+          </div>
+        </div><!-- End Breakfast Menu Content -->
+
+        <div class="tab-pane fade" id="menu-lunch">
+
+          <div class="tab-header text-center">
+            <p class="mt-5 text-uppercase">Menu</p>
+            <h3 class="text-danger fw-bold fs-1">Lunch</h3>
+          </div>
+
+          <div class="row gy-5">
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-1.png" class="glightbox"><img src="images/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Magnam Tiste</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $5.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-2.png" class="glightbox"><img src="images/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Aut Luia</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $14.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-3.png" class="glightbox"><img src="images/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Est Eligendi</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $8.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-4.png" class="glightbox"><img src="images/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Eos Luibusdam</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $12.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-5.png" class="glightbox"><img src="images/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Eos Luibusdam</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $12.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-6.png" class="glightbox"><img src="images/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Laboriosam Direva</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $9.95
+              </p>
+            </div><!-- Menu Item -->
+
+          </div>
+        </div><!-- End Lunch Menu Content -->
+
+        <div class="tab-pane fade" id="menu-dinner">
+
+          <div class="tab-header text-center">
+            <p class="mt-5 text-uppercase">Menu</p>
+            <h3 class="text-danger fw-bold fs-1">Dinner</h3>
+          </div>
+
+          <div class="row gy-5">
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-1.png" class="glightbox"><img src="images/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Magnam Tiste</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $5.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-2.png" class="glightbox"><img src="images/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Aut Luia</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $14.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-3.png" class="glightbox"><img src="images/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Est Eligendi</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $8.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-4.png" class="glightbox"><img src="images/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Eos Luibusdam</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $12.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-5.png" class="glightbox"><img src="images/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Eos Luibusdam</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $12.95
+              </p>
+            </div><!-- Menu Item -->
+
+            <div class="col-lg-4 menu-item">
+              <a href="images/menu/menu-item-6.png" class="glightbox"><img src="images/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+              <h4>Laboriosam Direva</h4>
+              <p class="ingredients">
+                Lorem, deren, trataro, filede, nerada
+              </p>
+              <p class="price">
+                $9.95
+              </p>
+            </div><!-- Menu Item -->
+
+          </div>
+        </div><!-- End Dinner Menu Content -->
+
+      </div>
+
+    </div>
+  </section><!-- End Menu Section -->
+
+
+
+
+ <!-- ======= Chefs Section ======= -->
+ <section id="chefs" class="chefs section-bg mt-5 mb-5">
+  <div class="container">
+
+    <div class="section-header d-flex flex-column align-items-center">
+      <h2 class="abouth2 text-uppercase">Chefs</h2>
+      <p class="aboutp fs-1">Our<span class="text-danger">Proffesional</span> Chefs</p>
+    </div>
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="chef-member">
+          <div class="member-img">
+            <img src="images/chefs/chefs-1.jpg" class="img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Walter White</h4>
+            <span>Master Chef</span>
+            <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+          </div>
+        </div>
+      </div><!-- End Chefs Member -->
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="chef-member">
+          <div class="member-img">
+            <img src="images/chefs/chefs-2.jpg" class="img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>Sarah Jhonson</h4>
+            <span>Patissier</span>
+            <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+          </div>
+        </div>
+      </div><!-- End Chefs Member -->
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="chef-member">
+          <div class="member-img">
+            <img src="images/chefs/chefs-3.jpg" class="img-fluid" alt="">
+            <div class="social">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h4>William Anderson</h4>
+            <span>Cook</span>
+            <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+          </div>
+        </div>
+      </div><!-- End Chefs Member -->
+
+    </div>
+
+  </div>
+</section><!-- End Chefs Section -->
+
+
+ <!-- ======= Book A Table Section ======= -->
+ <section id="book-a-table" class="book-a-table mt-5 mb-5">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-header d-flex flex-column align-items-center">
+      <h2 class="abouth2 text-uppercase">BOOK A TABLE</h2>
+      <p class="aboutp fs-1">Book<span class="text-danger"> Your Stay </span> With Us</p>
+    </div>
+
+    <div class="row g-0 book">
+
+      <div class="col-lg-4 reservation-img" style="background-image: url(images/reservation.jpg);"></div>
+
+      <div class="col-lg-8 d-flex align-items-center reservation-form-bg section-bg">
+        <form action="#" method="post" role="form" class="book-form">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <input type="text" name="date" class="form-control" id="date" placeholder="Date">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <input type="text" class="form-control" name="time" id="time" placeholder="Time">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <input type="number" class="form-control" name="people" id="people" placeholder="# of people">
+              <div class="validate"></div>
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+            <div class="validate"></div>
+          </div>
+          <div class="text-center"><button class="rounded-5 mt-3" type="submit">Book a Table</button></div>
+        </form>
+      </div><!-- End Reservation Form -->
+    </div>
+  </div>
+</section><!-- End Book A Table Section -->
+
+ <!-- ======= Contact Section ======= -->
+ <section id="contact" class="contact mt-5 mb-5">
+  <div class="container">
+
+    <div class="section-header d-flex flex-column align-items-center">
+      <h2 class="abouth2 text-uppercase">Contact</h2>
+      <p class="aboutp fs-1">Need Help?<span class="text-danger"> Contact Us</span> Chefs</p>
+    </div>
+
+    <div class="mb-3">
+      <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+    </div><!-- End Google Maps -->
+
+    <div class="row gy-4">
+
+      <div class="col-md-6">
+        <div class="info-item  d-flex align-items-center bg-body-secondary p-5">
+          <i class="icon bi bi-map flex-shrink-0"></i>
+          <div>
+            <h3>Our Address</h3>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </div>
+        </div>
+      </div><!-- End Info Item -->
+
+      <div class="col-md-6">
+        <div class="info-item d-flex align-items-center bg-body-secondary p-5">
+          <i class="icon bi bi-envelope flex-shrink-0"></i>
+          <div>
+            <h3>Email Us</h3>
+            <p>contact@example.com</p>
+          </div>
+        </div>
+      </div><!-- End Info Item -->
+
+      <div class="col-md-6">
+        <div class="info-item  d-flex align-items-center bg-body-secondary p-5">
+          <i class="icon bi bi-telephone flex-shrink-0"></i>
+          <div>
+            <h3>Call Us</h3>
+            <p>+1 5589 55488 55</p>
+          </div>
+        </div>
+      </div><!-- End Info Item -->
+
+      <div class="col-md-6">
+        <div class="info-item  d-flex align-items-center bg-body-secondary p-5">
+          <i class="icon bi bi-share flex-shrink-0"></i>
+          <div>
+            <h3>Opening Hours</h3>
+            <div><strong>Mon-Sat:</strong> 11AM - 23PM;
+              <strong>Sunday:</strong> Closed
+            </div>
+          </div>
+        </div>
+      </div><!-- End Info Item -->
+
+    </div>
+
+    <form action="#" method="post" role="form" class="form p-3 p-md-4">
+      <div class="row">
+        <div class="col-xl-6 form-group">
+          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="col-xl-6 form-group">
+          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+      </div>
+      <div class="text-center"><button type="submit" class="rounded-5">Send Message</button></div>
+    </form>
+    <!--End Contact Form -->
+
+  </div>
+</section><!-- End Contact Section -->
+
+
+<footer id="footer" class="footer mt-5">
+
+  <div class="container">
+    <div class="row gy-3">
+      <div class="col-lg-3 col-md-6 d-flex">
+        <i class="bi bi-geo-alt icon"></i>
+        <div>
+          <h4>Address</h4>
+          <p>
+            A108 Adam Street <br>
+            New York, NY 535022 - US<br>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links d-flex">
+        <i class="bi bi-telephone icon"></i>
+        <div>
+          <h4>Reservations</h4>
+          <p>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links d-flex">
+        <i class="bi bi-clock icon"></i>
+        <div>
+          <h4>Opening Hours</h4>
+          <p>
+            <strong>Mon-Sat: 11AM</strong> - 23PM<br>
+            Sunday: Closed
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links">
+        <h4>Follow Us</h4>
+        <div class="social-links d-flex">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="copyright">
+      &copy; <strong><span>Yummy</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed by <a href="#">Hellana</a>
+    </div>
+  </div>
+
+</footer><!-- End Footer -->
+<!-- End Footer -->
+
+
+
+<a href="#hero" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+     <script src="js/script.js"></script>
+    </body>
+</html>
